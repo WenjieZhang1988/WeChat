@@ -16,7 +16,14 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    // 统一修改导航条样式
+    [[UINavigationBar appearance]setTintColor:[UIColor whiteColor]];
+    // opaque --->不透明
+    // translucent --->半透明
+    // transparent --->全透明
+    [[UINavigationBar appearance]setBarStyle:UIBarStyleBlackTranslucent];
+    // 统一设置tabbar样式
+    [[UITabBar appearance]setTintColor:[UIColor greenColor]];
     return YES;
 }
 

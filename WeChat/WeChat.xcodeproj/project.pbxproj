@@ -150,6 +150,10 @@
 		184BA87B1AD36F7F0004A77A /* libidn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 184BA7EC1AD36F7F0004A77A /* libidn.a */; };
 		184BA87D1AD36FA60004A77A /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 184BA87C1AD36FA60004A77A /* libxml2.dylib */; };
 		184BA87F1AD36FB20004A77A /* libresolv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 184BA87E1AD36FB20004A77A /* libresolv.dylib */; };
+		189930721AD4FE5C0042BE30 /* WJContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189930711AD4FE5C0042BE30 /* WJContactsViewController.m */; };
+		1899D2C91AD5240900B88CD3 /* WJChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1899D2C81AD5240900B88CD3 /* WJChatViewController.m */; };
+		1899D2CC1AD5394D00B88CD3 /* WeChat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1899D2CB1AD5394D00B88CD3 /* WeChat.storyboard */; };
+		18B901AC1AD4CD86007D6E4F /* WJXMPPTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B901AB1AD4CD86007D6E4F /* WJXMPPTool.m */; };
 		18BCBCC41AD36EDE000DE3E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BCBCC31AD36EDE000DE3E5 /* main.m */; };
 		18BCBCC71AD36EDE000DE3E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BCBCC61AD36EDE000DE3E5 /* AppDelegate.m */; };
 		18BCBCCA1AD36EDE000DE3E5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BCBCC91AD36EDE000DE3E5 /* ViewController.m */; };
@@ -465,14 +469,21 @@
 		184BA7EE1AD36F7F0004A77A /* XMPPFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPFramework.h; sourceTree = "<group>"; };
 		184BA87C1AD36FA60004A77A /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		184BA87E1AD36FB20004A77A /* libresolv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libresolv.dylib; path = usr/lib/libresolv.dylib; sourceTree = SDKROOT; };
-		184BA8801AD36FD20004A77A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		184BA8801AD36FD20004A77A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = ../../PrefixHeader.pch; sourceTree = "<group>"; };
+		189930701AD4FE5C0042BE30 /* WJContactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJContactsViewController.h; sourceTree = "<group>"; };
+		189930711AD4FE5C0042BE30 /* WJContactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJContactsViewController.m; sourceTree = "<group>"; };
+		1899D2C71AD5240900B88CD3 /* WJChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJChatViewController.h; sourceTree = "<group>"; };
+		1899D2C81AD5240900B88CD3 /* WJChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJChatViewController.m; sourceTree = "<group>"; };
+		1899D2CB1AD5394D00B88CD3 /* WeChat.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = WeChat.storyboard; sourceTree = "<group>"; };
+		18B901AA1AD4CD86007D6E4F /* WJXMPPTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJXMPPTool.h; sourceTree = "<group>"; };
+		18B901AB1AD4CD86007D6E4F /* WJXMPPTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJXMPPTool.m; sourceTree = "<group>"; };
 		18BCBCBE1AD36EDE000DE3E5 /* WeChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18BCBCC21AD36EDE000DE3E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18BCBCC31AD36EDE000DE3E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		18BCBCC51AD36EDE000DE3E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		18BCBCC61AD36EDE000DE3E5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		18BCBCC81AD36EDE000DE3E5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		18BCBCC91AD36EDE000DE3E5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18BCBCC51AD36EDE000DE3E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../AppDelegate.h; sourceTree = "<group>"; };
+		18BCBCC61AD36EDE000DE3E5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../../AppDelegate.m; sourceTree = "<group>"; };
+		18BCBCC81AD36EDE000DE3E5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../../ViewController.h; sourceTree = "<group>"; };
+		18BCBCC91AD36EDE000DE3E5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../../ViewController.m; sourceTree = "<group>"; };
 		18BCBCCC1AD36EDE000DE3E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18BCBCCE1AD36EDE000DE3E5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		18BCBCD11AD36EDE000DE3E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -507,9 +518,9 @@
 			children = (
 				184BA67B1AD36F2F0004A77A /* Tool */,
 				184BA67A1AD36F2F0004A77A /* Model */,
-				184BA67C1AD36F2F0004A77A /* View */,
 				184BA6781AD36F2F0004A77A /* Controller */,
 				184BA6791AD36F2F0004A77A /* Lib */,
+				18B901A91AD4CCAB007D6E4F /* Other */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -517,6 +528,12 @@
 		184BA6781AD36F2F0004A77A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				189930701AD4FE5C0042BE30 /* WJContactsViewController.h */,
+				189930711AD4FE5C0042BE30 /* WJContactsViewController.m */,
+				1899D2C71AD5240900B88CD3 /* WJChatViewController.h */,
+				1899D2C81AD5240900B88CD3 /* WJChatViewController.m */,
+				18BCBCC81AD36EDE000DE3E5 /* ViewController.h */,
+				18BCBCC91AD36EDE000DE3E5 /* ViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -532,6 +549,7 @@
 		184BA67A1AD36F2F0004A77A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				1899D2CA1AD5391200B88CD3 /* View */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -539,15 +557,10 @@
 		184BA67B1AD36F2F0004A77A /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				18B901AA1AD4CD86007D6E4F /* WJXMPPTool.h */,
+				18B901AB1AD4CD86007D6E4F /* WJXMPPTool.m */,
 			);
 			path = Tool;
-			sourceTree = "<group>";
-		};
-		184BA67C1AD36F2F0004A77A /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		184BA67D1AD36F7F0004A77A /* XMPP-Framework */ = {
@@ -1426,6 +1439,27 @@
 			path = libidn;
 			sourceTree = "<group>";
 		};
+		1899D2CA1AD5391200B88CD3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1899D2CB1AD5394D00B88CD3 /* WeChat.storyboard */,
+				18BCBCCB1AD36EDE000DE3E5 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18B901A91AD4CCAB007D6E4F /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				18BCBCC51AD36EDE000DE3E5 /* AppDelegate.h */,
+				18BCBCC61AD36EDE000DE3E5 /* AppDelegate.m */,
+				184BA87E1AD36FB20004A77A /* libresolv.dylib */,
+				184BA87C1AD36FA60004A77A /* libxml2.dylib */,
+				184BA8801AD36FD20004A77A /* PrefixHeader.pch */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
 		18BCBCB51AD36EDE000DE3E5 = {
 			isa = PBXGroup;
 			children = (
@@ -1448,10 +1482,6 @@
 			isa = PBXGroup;
 			children = (
 				184BA6771AD36F2F0004A77A /* Classes */,
-				18BCBCC51AD36EDE000DE3E5 /* AppDelegate.h */,
-				18BCBCC61AD36EDE000DE3E5 /* AppDelegate.m */,
-				18BCBCC81AD36EDE000DE3E5 /* ViewController.h */,
-				18BCBCC91AD36EDE000DE3E5 /* ViewController.m */,
 				18BCBCC11AD36EDE000DE3E5 /* Supporting Files */,
 			);
 			path = WeChat;
@@ -1460,14 +1490,10 @@
 		18BCBCC11AD36EDE000DE3E5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				184BA87E1AD36FB20004A77A /* libresolv.dylib */,
-				184BA87C1AD36FA60004A77A /* libxml2.dylib */,
-				18BCBCCB1AD36EDE000DE3E5 /* Main.storyboard */,
 				18BCBCCE1AD36EDE000DE3E5 /* Images.xcassets */,
 				18BCBCD01AD36EDE000DE3E5 /* LaunchScreen.xib */,
 				18BCBCC21AD36EDE000DE3E5 /* Info.plist */,
 				18BCBCC31AD36EDE000DE3E5 /* main.m */,
-				184BA8801AD36FD20004A77A /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -1533,6 +1559,7 @@
 		18BCBCB61AD36EDE000DE3E5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = WJ;
 				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = Kevin;
 				TargetAttributes = {
@@ -1573,6 +1600,7 @@
 				18BCBCCD1AD36EDE000DE3E5 /* Main.storyboard in Resources */,
 				18BCBCD21AD36EDE000DE3E5 /* LaunchScreen.xib in Resources */,
 				184BA8751AD36F7F0004A77A /* README.txt in Resources */,
+				1899D2CC1AD5394D00B88CD3 /* WeChat.storyboard in Resources */,
 				18BCBCCF1AD36EDE000DE3E5 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1618,6 +1646,7 @@
 				184BA8201AD36F7F0004A77A /* XMPPRoomHybridStorage.m in Sources */,
 				184BA8491AD36F7F0004A77A /* XMPPMessageArchiving.xcdatamodeld in Sources */,
 				184BA8291AD36F7F0004A77A /* XMPPvCard.xcdatamodeld in Sources */,
+				18B901AC1AD4CD86007D6E4F /* WJXMPPTool.m in Sources */,
 				184BA8621AD36F7F0004A77A /* XMPPMessage+XEP_0308.m in Sources */,
 				18BCBCCA1AD36EDE000DE3E5 /* ViewController.m in Sources */,
 				184BA7F81AD36F7F0004A77A /* NSNumber+XMPP.m in Sources */,
@@ -1644,6 +1673,7 @@
 				184BA8351AD36F7F0004A77A /* XMPPvCardTempTel.m in Sources */,
 				184BA8301AD36F7F0004A77A /* XMPPvCardTempAdrTypes.m in Sources */,
 				184BA86E1AD36F7F0004A77A /* DDASLLogger.m in Sources */,
+				189930721AD4FE5C0042BE30 /* WJContactsViewController.m in Sources */,
 				184BA8111AD36F7F0004A77A /* XMPPRosterMemoryStorage.m in Sources */,
 				184BA85A1AD36F7F0004A77A /* XMPPTime.m in Sources */,
 				184BA8741AD36F7F0004A77A /* DDMultiFormatter.m in Sources */,
@@ -1674,6 +1704,7 @@
 				184BA8161AD36F7F0004A77A /* XMPPIQ+JabberRPCResonse.m in Sources */,
 				184BA8361AD36F7F0004A77A /* NSXMLElement+XEP_0059.m in Sources */,
 				184BA86D1AD36F7F0004A77A /* DDAbstractDatabaseLogger.m in Sources */,
+				1899D2C91AD5240900B88CD3 /* WJChatViewController.m in Sources */,
 				184BA83A1AD36F7F0004A77A /* TURNSocket.m in Sources */,
 				184BA7F91AD36F7F0004A77A /* NSXMLElement+XMPP.m in Sources */,
 				184BA7F71AD36F7F0004A77A /* NSData+XMPP.m in Sources */,
@@ -1760,6 +1791,7 @@
 				18BCBCCC1AD36EDE000DE3E5 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ../../..;
 			sourceTree = "<group>";
 		};
 		18BCBCD01AD36EDE000DE3E5 /* LaunchScreen.xib */ = {
@@ -1814,7 +1846,7 @@
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					/usr/include/libxml2,
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -1856,7 +1888,7 @@
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					/usr/include/libxml2,
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -1869,6 +1901,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WeChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1884,6 +1917,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WeChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",

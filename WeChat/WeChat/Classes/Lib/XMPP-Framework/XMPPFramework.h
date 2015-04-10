@@ -22,12 +22,20 @@
 //  THIS HEADER FILE SHOULD BE TAILORED TO MATCH YOUR APPLICATION.
 
 
-#import "XMPP.h"
+// 心跳检测模块
+#import "XMPPAutoPing.h"
+// 聊天记录同步模块
+#import "XMPPMessageArchiving.h"
+#import "XMPPMessageArchivingCoreDataStorage.h"
+// 文件接收模块
+#import "XMPPIncomingFileTransfer.h"
 
 // List the modules you're using here.
 
+#import "XMPP.h"
+// 自动重连模块
 #import "XMPPReconnect.h"
-
+// 好友(花名册)模块
 #import "XMPPRoster.h"
 #import "XMPPRosterCoreDataStorage.h"
 

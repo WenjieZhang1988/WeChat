@@ -16,12 +16,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    // 用户登陆
+    [[WJXMPPTool sharedInstance] loginWithJID:[XMPPJID jidWithUser:@"lisi" domain:@"Kevin.local" resource:@"iOS"] andPassword:@"lisi"];
 }
 
 @end
